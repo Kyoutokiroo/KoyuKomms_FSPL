@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>京都 CORP | Kurt Axl Cypres</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="sonya7iii.jpg">
+</head>
+<body>
+  <section class="hsec" id="home">
+    <div class="l-cont">
+      <p class="logo">京都 CORP</p>
+    </div>
+    <div class="side-nav">
+      <nav>
+        <ul>
+          <li><a href="#home"><span class="material-icons">home</span></a></li>
+          <li><a href="#about"><span class="material-icons">contacts</span></a></li>
+          <li><a href="#services"><span class="material-symbols">draw</span></a></li>
+          <li><a href="#works"><span class="material-symbols">art_track</span></a></li>
+          <li><a href="#testimonials"><span class="material-icons">rate_review</span></a></li>
+          <li><a href="#contact"><span class="material-icons">send</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hcont">
+      <h1>Digital Art</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex autem, consectetur voluptatum natus nulla illo nobis magni aliquam eligendi quo fuga, soluta molestiae blanditiis veritatis necessitatibus quidem, ratione odio laboriosam?</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, facere quam aut doloremque quasi error saepe fugit cum quod eius porro, iste illum culpa neque nihil voluptate adipisci necessitatibus eos!</p>
+      <a href="https://www.facebook.com/kyoutokiroo/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://x.com/Kyouto_Kun" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://www.instagram.com/kyoutokiro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://discord.com/users/1145003142770077758" target="_blank"><i class="fa-brands fa-discord"></i></a>
+    </div>        
+    <div class="chat">
+      <span class="material-symbols" id="arr-ch" onclick="morph()">arrow_menu_close</span>
+      <p class="notice">Server-Side Website is still under construction.</p>
+      <div class="text-field">
+        <input type="text" placeholder="Type a message..." id="Input">
+        <button id="sendButton"><span class="material-symbols">send</span></button>
+      </div>
+      <span class="material-symbols" id="maintenance">construction</span>
+    </div>
+    <div class="mp">
+      <img src="" class="img">
+      <div class="ti">
+        <h2 class="title">mumei</h2>
+        <h3 class="artist">Nanashi Mumei</h3>
+      </div>
+      <div class="ctrl">
+        <span class="prev" onclick="prevTrack()"><span class="material-symbols">chevron_left</span></span>
+        <span class="p-p" onclick="ppTrack()"><span class="material-symbols">play_arrow</span></span>
+        <span class="next" onclick="nextTrack()"><span class="material-symbols">chevron_right</span></span>
+      </div>
+      <div class="prog">
+        <input type="range" min="1" max="100" value="0" id="bar" onchange="seekTo()">
+        <span class="ct">00:00</span>
+        <span class="dt">00:00</span>
+      </div>
+    </div>
+  </section>
+  <section class="asec" id="about">
+    <div class="cont">
+      <h1>Kurt Axl</h1>
+      <div class="bio">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos consequuntur quo, eos itaque asperiores rem officia consectetur culpa ipsam voluptates odio vel nulla nobis optio? Nesciunt ipsum ea veniam odio!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum excepturi architecto distinctio accusamus iure consequatur molestias iste voluptatibus. Tempora totam in debitis repellat cum molestiae placeat suscipit dolores dolor laborum?</p>
+      </div>
+      <div class="info">
+        <ul>
+          <li class="name"><span class="material-symbols">attach_money</span>$10 / hour</li>
+          <li class="address"><span class="material-symbols">timer</span>~1-2 weeks</li>
+          <li class="email"><span class="material-symbols">mail</span>cypreskurtaxl@gmail.com</li>
+          <li class="occupation"><span class="material-symbols">payments</span>PayPal / GCash / Patreon</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h2>Terms of Service agreement</h2>
+        <p>Kabilang sa mga serbisyong magagamit ang cinematic 16:9 na mga ilustrasyon ng gustong karakter, na kinabibilangan ng background, mga one-shot na may kulay na manga illustrations, mga karaniwang fanarts ng karakter, at limitadong konsepto at paggawa ng disenyo ng OC. Ang hindi ko ginagawa ay kinabibilangan ng mga maanghang at lalo na ang mga NSFW na ilustrasyon, mga gore illustrations, mga grotesque na imahinasyon, mga standalone na background ng landscape, at mechatronics.</p>
+        <p>Libreng pinapayagan ang mga pagsasaayos habang ginagawa ang sketching samantalang may karagdagang bayad ang mga pagsasaayos pagkatapos.</p>
+        <p>Kapag napagkasunduan na ang sketch, babayaran ng kliyente ang oras-oras na rate para sa sketch.</p>
+        <p>Dapat patunayan ng kliyente na sigurado sila at handang magbayad para sa komisyon. Dapat din nilang patunayan na sila ay higit sa 18 taong gulang at may kakayahan at pangako na gawing posible ang transaksyon, na kinabibilangan ng mga insentibo para bayaran ang komisyon.</p>
+      </div>    
+    </div>
+  </section>
+  <section class="ssec" id="services">
+    <h2>Mga Serbisyong Makukuha</h2>
+    <div class="container">
+      <div class="services">
+        <span class="material-symbols" id="landscape">screenshot_frame_2</span>
+        <h2>Cinematic 16:9 Illustrations</h2>
+      </div>
+      <div class="services">
+        <span class="material-symbols" id="nature">grass</span>
+        <h2>One-Shot Illustration</h2>
+      </div>
+      <div class="services">
+        <span class="material-symbols" id="portrait">frame_person</span>
+        <h2>Character Fanart</h2>
+      </div>
+    </div>
+  </section>
+  <section class="wsec" id="works">
+    <h2>Mga Gawa</h2>
+    <div class="ctnr">
+      <div class="panel active" style="background-image: url(Winter.jpg)">
+        <h3>Cinematic 16:9 Illustrations</h3>
+      </div>
+      <div class="panel" style="background-image: url(Seikon.jpg)">
+        <h3>One-Shot Illustration</h3>
+      </div>
+      <div class="panel" style="background-image: url(Koseki-Bijou.jpg)">
+        <h3>Character Fanart</h3>
+      </div>
+    </div>
+  </section>
+  <section class="tsec" id="testimonials">
+    <h2>Mga Testimonial</h2>
+    <div class="testimonial-card">
+      <div class="quote-icon">"</div>
+      <p class="quote-text">
+        "Dati, ang paghahanap ng mga artistang tunay na nakauunawa sa aking bisyon ay parang pagsusugal. Gamit ang platapormang ito, nakapagpa-commission ako ng isang espesyal na portrait para sa kaarawan ng aking kapareha, at naging napakamaayos ng buong proseso. Dahil sa mga update na nakapaloob sa sistema, naging updated ako sa bawat yugto, at talagang namangha kaming dalawa sa kinalabasang obra!"
+      </p>
+      <div class="client-info">
+        <strong>Maya T.</strong>
+        <span>Custom Portrait Client</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="quote-icon">"</div>
+      <p class="quote-text">
+        "Naghahanap ako ng partikular na estilo ng cover art para sa aking independent web novel at hindi ko alam kung saan magsisimula. Napakadali ng proseso ng paghahanap sa mga umuusbong na creator gamit ang site na ito. Naging napakadali rin ng pagtalakay sa mga rebisyon dahil sa mga tool para sa komunikasyon, at nakapagbigay ang artist ng kahanga-hangang likha nang eksakto sa takdang oras."
+      </p>
+      <div class="client-info">
+        <strong>David L.</strong>
+        <span>Indie Author & Creator</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="quote-icon">"</div>
+        <p class="quote-text">
+          "Bilang isang taong bumibili ng orihinal na digital art sa unang pagkakataon, kinabahan ako tungkol sa pagbabayad at sa mga pinal na file. Naging ligtas at transparent ang proseso sa platform na ito. Napakabait ng artist na nakatrabaho ko; palagi niya akong ina-update gamit ang mga rough sketch, at ibinigay niya ang artwork na may mataas na resolution—na agad kong ipinaprint para ilagay sa dingding ng aking opisina."
+        </p>
+      <div class="client-info">
+        <strong>Elena R.</strong>
+        <span>First-Time Art Buyer</span>
+        </div>
+      </div>
+  </section>
+  <section class="csec" id="contact">
+    <h2>makipag-ugnayan sa akin!</h2>
+    <p class="subtitle">Narito ako upang tumulong. Pakipunan ang form sa ibaba upang magpadala sa amin ng mensahe.</p>
+    <div class="ls">
+      <form id="contactForm">
+        <!-- First and Last Name -->
+        <div class="input-row">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="John" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+          </div>
+        </div>
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+        </div>
+        <!-- Contact Number -->
+        <div class="form-group">
+          <label for="contactNumber">Contact Number (Optional)</label>
+          <input type="tel" id="contactNumber" name="contactNumber" placeholder="+1 (555) 123-4567">
+         </div>
+            <!-- Message Area -->
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+        </div>
+            <!-- Send Message Button -->
+        <div class="form-group">
+          <button type="submit" class="submit-button">Send Message</button>
+        </div>
+      </form>
+    </div>
+    <a href="https://www.facebook.com/kyoutokiroo/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://x.com/Kyouto_Kun" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://www.instagram.com/kyoutokiro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://discord.com/users/1145003142770077758" target="_blank"><i class="fa-brands fa-discord"></i></a> 
+  </section>
+<script src="app.js"></script>
+</body>
+</html>
