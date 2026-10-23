@@ -20,7 +20,7 @@ body{
   display: flex;
   color: #000;
   background-attachment: scroll;
-  background-position: right top;
+  background-position: center;
   background-size: contain;
   align-items: center;
 }
