@@ -20,7 +20,7 @@ body{
   display: flex;
   color: #000;
   background-attachment: scroll;
-  background-position: center;
+  background-position: right top;
   background-size: contain;
   align-items: center;
 }
@@ -319,7 +319,7 @@ body{
   background-attachment: scroll;
   background-position: left top;
   background-size: contain;
-  height: 10vh;
+  height: 105vh;
 }
 .asec .cont{
   width: 50%;
@@ -385,7 +385,7 @@ ul{
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 70vh;
+  height: 60vh;
   transition: background-image 0.2s ease-in-out;
 }
 .ssec h2{
@@ -424,7 +424,7 @@ ul{
   cursor: default;
 }
 .wsec{
-  height: 117vh;
+  height: 107vh;
   background: #111;
   color: #fff;
   padding: 50px;
