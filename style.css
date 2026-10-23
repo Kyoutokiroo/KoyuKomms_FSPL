@@ -319,7 +319,7 @@ body{
   background-attachment: scroll;
   background-position: left top;
   background-size: contain;
-  height: 100vh;
+  height: 120vh;
 }
 .asec .cont{
   width: 50%;
@@ -385,7 +385,7 @@ ul{
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 60vh;
+  height: 70vh;
   transition: background-image 0.2s ease-in-out;
 }
 .ssec h2{
@@ -424,7 +424,7 @@ ul{
   cursor: default;
 }
 .wsec{
-  height: 107vh;
+  height: 117vh;
   background: #111;
   color: #fff;
   padding: 50px;
@@ -472,7 +472,7 @@ ul{
 }
 .tsec{
   background: #191919;
-  height: 120vh;
+  height: 130vh;
   color: #fff;
   padding: 40px 160px;
   display: grid;
@@ -525,7 +525,7 @@ ul{
 }
 .csec{
   background-color: #111;
-  height: 90vh;
+  height: 100vh;
   padding: 40px 200px;
   color: #fff;
 }
